@@ -64,14 +64,16 @@ function draw()
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 30);
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 30, 7);
     //feet
     fill(0);
-    rect(gameChar_x - 15, gameChar_y - 5, 10, 10);
-    rect(gameChar_x + 5, gameChar_y - 5, 10, 10);
+    rect(gameChar_x - 10, gameChar_y - 5, 8, 12, 3);
+    rect(gameChar_x + 2, gameChar_y - 5, 8, 12, 3);
     //eyes
-    ellipse(gameChar_x - 8, gameChar_y - 53, 5, 5);
-    ellipse(gameChar_x + 5, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x - 8, gameChar_y - 53, 5, 4);
+    ellipse(gameChar_x + 5, gameChar_y - 53, 5, 4);
+    //mouth
+    ellipse(gameChar_x, gameChar_y - 44, 4, 1);
     //hands
     stroke(2);
     line(gameChar_x - 10, gameChar_y - 30, gameChar_x - 20, gameChar_y - 15);
@@ -95,15 +97,17 @@ function draw()
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //feet
     fill(0);
-    rect(gameChar_x - 15, gameChar_y - 20, 10, 10);
-    rect(gameChar_x + 5, gameChar_y - 20, 10, 10);
+    rect(gameChar_x - 12, gameChar_y - 20, 8, 8, 3);
+    rect(gameChar_x + 5, gameChar_y - 20, 8, 8, 3);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 20);
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 20, 7);
     //eyes
     fill(0);
-    ellipse(gameChar_x - 8, gameChar_y - 53, 5, 5);
-    ellipse(gameChar_x + 5, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x - 8, gameChar_y - 53, 5, 4);
+    ellipse(gameChar_x + 5, gameChar_y - 53, 5, 4);
+    //mouth
+    ellipse(gameChar_x, gameChar_y - 44, 4, 3);
     //hands
     stroke(2);
     line(gameChar_x - 10, gameChar_y - 30, gameChar_x - 20, gameChar_y - 50);
@@ -126,18 +130,20 @@ function draw()
     //right eye
     ellipse(gameChar_x - 14, gameChar_y - 53, 5, 5);
     //right foot
-    rect(gameChar_x - 8, gameChar_y - 10, 10, 10);
+    rect(gameChar_x - 8, gameChar_y - 10, 8, 12, 3);
     //skin tone head
     fill(255, 160, 122);
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 30);
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 30, 7);
     //left foot
     fill(0);
-    rect(gameChar_x, gameChar_y - 8, 10, 10);
+    rect(gameChar_x, gameChar_y - 8, 8, 12, 3);
     //left eye    
     ellipse(gameChar_x - 10, gameChar_y - 53, 5, 5);
+    //mouth
+    ellipse(gameChar_x - 10, gameChar_y - 44, 2, 1);
     //left hand
     stroke(2);
     line(gameChar_x, gameChar_y - 30, gameChar_x - 3, gameChar_y - 15);
@@ -157,20 +163,22 @@ function draw()
     stroke(2);
     fill(0);
     //right eye
-    ellipse(gameChar_x + 14, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x + 14, gameChar_y - 53, 5, 4);
     //right foot
-    rect(gameChar_x -3, gameChar_y - 10, 10, 10);
+    rect(gameChar_x -3, gameChar_y - 10, 8, 12, 3);
     //skin tone head
     fill(255, 160, 122);
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 30);
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 30, 7);
     //left foot
     fill(0);
-    rect(gameChar_x - 10, gameChar_y - 8, 10, 10);
+    rect(gameChar_x - 10, gameChar_y - 8, 8, 12, 3);
     //left eye    
-    ellipse(gameChar_x + 10, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x + 10, gameChar_y - 53, 5, 4);
+    //mouth
+    ellipse(gameChar_x + 10, gameChar_y - 44, 2, 1);
     //left hand
     stroke(2);
     line(gameChar_x, gameChar_y - 30, gameChar_x + 3, gameChar_y - 15);
@@ -190,20 +198,22 @@ function draw()
     stroke(2);
     fill(0);
     //right eye
-    ellipse(gameChar_x + 14, gameChar_y - 53, 5, 5);
-    //right foot
-    rect(gameChar_x - 6, gameChar_y - 20, 10, 10);
+    ellipse(gameChar_x + 14, gameChar_y - 53, 5, 4);
+    //left foot
+    rect(gameChar_x - 8, gameChar_y - 20, 10, 8, 3);
     //skin tone head
     fill(255, 160, 122);
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 20);
-    //left foot
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 20, 7);
+    //right foot
     fill(0);
-    rect(gameChar_x - 13, gameChar_y - 18, 10, 10);
+    rect(gameChar_x - 13, gameChar_y - 18, 10, 8, 3);
     //left eye    
-    ellipse(gameChar_x + 10, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x + 10, gameChar_y - 53, 5, 4);
+    //mouth
+    ellipse(gameChar_x + 12, gameChar_y - 44, 2, 3);
     //left hand
     stroke(2);
     line(gameChar_x, gameChar_y - 30, gameChar_x + 3, gameChar_y - 50);
@@ -223,20 +233,22 @@ function draw()
     stroke(2);
     fill(0);
     //right eye
-    ellipse(gameChar_x - 14, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x - 14, gameChar_y - 53, 5, 4);
     //right foot
-    rect(gameChar_x - 5, gameChar_y - 20, 10, 10);
+    rect(gameChar_x - 2, gameChar_y - 22, 8, 10, 3);
     //skin tone head
     fill(255, 160, 122);
     ellipse(gameChar_x, gameChar_y - 50, 30);
     //salmon pink body
     fill(250, 128, 114);
-    rect(gameChar_x - 10, gameChar_y - 35, 20, 20);
+    rect(gameChar_x - 10, gameChar_y - 35, 20, 20, 7);
     //left foot
     fill(0);
-    rect(gameChar_x + 3, gameChar_y - 18, 10, 10);
+    rect(gameChar_x + 3, gameChar_y - 18, 10, 8, 3);
     //left eye    
-    ellipse(gameChar_x - 10, gameChar_y - 53, 5, 5);
+    ellipse(gameChar_x - 10, gameChar_y - 53, 5, 4);
+    //mouth
+    ellipse(gameChar_x - 12, gameChar_y - 44, 2, 3);
     //left hand
     stroke(2);
     line(gameChar_x, gameChar_y - 30, gameChar_x - 3, gameChar_y - 50);
